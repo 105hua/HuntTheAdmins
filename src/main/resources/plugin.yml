@@ -1,0 +1,13 @@
+name: HuntTheAdmins
+version: '${version}'
+main: joshdev.hunttheadmins.HuntTheAdmins
+api-version: '1.20'
+commands:
+  setupscoreboard:
+    description: Sets up the scoreboard for the Hunt the Admins event.
+    usage: /setupscoreboard
+    permission: hunttheadmins.setupscoreboard
+  removescoreboard:
+    description: Removes the scoreboard for the Hunt the Admins event.
+    usage: /removescoreboard
+    permission: hunttheadmins.removescoreboard
